@@ -25,4 +25,16 @@ class Employee {
 	public void exit() {
 		System.out.println("Employee exited from the Campus!");
 	}
+
+	public void employeeInfo() {
+		System.out.println();
+		System.out.println("Employee Info");
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+	}
 }

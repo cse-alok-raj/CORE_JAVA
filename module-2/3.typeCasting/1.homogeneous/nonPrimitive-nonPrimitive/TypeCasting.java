@@ -16,5 +16,24 @@ class TypeCasting {
 		softwareDeveloper.displaySoftwareDeveloperInfo();
 		softwareDeveloper.reverseKT();
 		softwareDeveloper.task();
+
+		System.out.println();
+
+		//generic container
+		employee = new SoftwareTester();
+		
+		employee.entry();
+		employee.login();
+		employee.shortBreak();
+		employee.meeting();
+		employee.logOut();
+		employee.exit();
+
+		//Specific container
+		SoftwareTester softwareTester = (SoftwareTester)employee;
+		softwareTester.displaySoftwareTesterInfo();
+		softwareTester.reverseKT();
+		softwareTester.task();
+
 	}
 }
